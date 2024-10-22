@@ -1,9 +1,14 @@
 /* Buttons */
 /* Inputs */
 /* Timeline custom component */
+p {
+  text-align: justify;
+}
+
 .timeline {
   border-left: 2px solid #e6e9ed;
   padding: 1rem 0;
+  text-align: justify;
 }
 
 .timeline-card {
@@ -124,9 +129,40 @@ footer a:not(.nav-link) {
   cursor: pointer;
 }
 /*mon css*/
-div {
-  text-align: justify;
+.hobbies {
+  display: flex;
+  justify-content: space-between;
 }
+
+/*skills css*/
+.collapsible {
+  background-color: #4a89dc;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  margin-bottom: 2px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active_collapse,
+.collapsible:hover {
+  background-color: #2978df;
+  border: 1px solid #fff;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  justify-content: space-between;
+}
+/*end skills css*/
 
 @media (min-width: 48em) {
   .site-title {
